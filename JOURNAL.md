@@ -270,7 +270,7 @@ I think I went through every single menu in QLC+ and WLED to see where it was co
 ## Day 10: Last prepare, preparation of final BOM, test of software, recalculate all ... 
 Today I prepare all for submit
 
-### Recalculate necessary PowerSuply
+**Recalculate necessary PowerSuply:**
 With reviewing my choiced LED I found I have take 5V LED ??????
 Noooooo....
 I'm such an idiot.
@@ -293,10 +293,10 @@ I = P / U => 340 / 12 = 30 A
 
 So my alimentation are a good choice for 20% safety and more
 
-### Software test
+**Software test:**
 All it's works with WLED and QLC with no latency bettween systems
 
-### BOM
+**BOM:**
 
 -1-28pcs/Lot perfil aluminio led lights 0.5 meters Office light belt aluminum profile for diode 5730 2835 LED hard light strip --> 50.99€
 -WS2812B WS2812 RGB Led Strip Light Addressable Smart Individually Pixel LED Strip Tape Rope 30/60/74/96/144Pixel/Leds/M DC5V 2m * 5 --> 63.45€
