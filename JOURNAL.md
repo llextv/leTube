@@ -319,3 +319,24 @@ All it's works with WLED and QLC with no latency bettween systems
 | **Total**          |                                                           |          |                   |     **176.66** | ≈ **195 USD**                     |                                                                                                              |
 
 **Total time spent: 3 hours**
+
+## New response for my project
+"Hi! This is a cool project, but I cannot approve this due to insufficient files. You need the kicad project, schematic, and pcb files so that we can check it (having screenshots alone is not enough). It doesn't seem that you have any cad designs for this project, which is fine. In future projects, you would need .step files and either a fusion source file or an onshape project linked in your readme. You need to have some changes in your schematic. For your usbc receptacle, you need to connect D+ to D+ and D- to D- or else data won't be transferred when a usbc cable is plugged in a certain orientation. I recommend you to use the standard GND symbol (the one with the arrow). Regardless, you need to point the gnd symbol (whichever you decide to use) down since it is standard convention. All power symbols should not be global labels. You need to use a standard power symbol (the one with an arrow, you can access it by pressing P). Since I don't have the files, I cannot give you every feedback you may need. After you do the changes I said above (note that I might miss something) and provide the required files, reply in this thread to request a review. If you have any questions or think I made a mistake, reply in this thread aswell."
+
+I should just point out that I won't be using a PCB, as they are too expensive for this project; I can do it for much less while still maintaining decent quality.
+
+So multiple pb on my project:
+- USB-C receptacle is wired incorrectly: connect D+ to D+ and D− to D− so USB data works in both cable orientations.
+-> ![alt text](image-28.png) --> corrected
+- Replace the current GND symbol with the standard KiCad GND symbol.
+-> ![alt text](image-29.png) --> corrected
+- Orient the GND symbol downward, following standard schematic conventions.
+-> ![alt text](image-30.png) --> corrected
+- Replace power global labels with proper KiCad power symbols (use P to place them).
+-> ![alt text](image-31.png) --> corrected
+- Missing KiCad project files (.kicad_pro, .kicad_sch, .kicad_pcb).
+[kicad_pcb](assets/tube.kicad_pcb)
+[kicad_pro](assets/tube.kicad_pro)
+[kicad_sch](assets/tube.kicad_sch)
+
+**Total time spent: 1 hours**

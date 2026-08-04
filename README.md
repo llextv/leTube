@@ -14,6 +14,10 @@ See the BOM in [bom.csv](BOM.csv) or at the end of file
 **Scheme:**
 ![alt text](image-18.png)
 ![alt text](image-19.png)
+PCB:
+[kicad_pcb](assets/tube.kicad_pcb)
+[kicad_pro](assets/tube.kicad_pro)
+[kicad_sch](assets/tube.kicad_sch)
 
 **Script**
 ![WLED](image-14.png)
