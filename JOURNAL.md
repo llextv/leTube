@@ -348,5 +348,6 @@ Okay for research, the link to firmware: https://kno.wled.ge/ (added to README)
 
 I replace cover image
 I place CAD file: [step file](cad/LeTube.step)
+![alt text](image-32.png)
 
 **Total time spent: 10 minutes**
