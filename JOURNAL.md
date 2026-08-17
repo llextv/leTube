@@ -340,3 +340,13 @@ So multiple pb on my project:
 [kicad_sch](assets/tube.kicad_sch)
 
 **Total time spent: 1 hours**
+
+## New response after accepted project
+"Your first entire spending 3 hours on research will have to be full deflated that is an excessive amount of time. You need to link the firmware, and you need to include the 3d Model you created. You need to add more pictures, and cannot have the inspiration as your cover images. I am also moving this down to Tier 3 as it does not fit T2 guidelines."
+
+Okay for research, the link to firmware: https://kno.wled.ge/ (added to README)
+
+I replace cover image
+I place CAD file: [step file](cad/LeTube.step)
+
+**Total time spent: 10 minutes**
