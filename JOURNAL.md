@@ -16,7 +16,7 @@ Initial Bill of Materials (BOM) draft:
 ...bringing the estimated total to over $180.
 Of course, this BOM will likely change as I experiment further.
 
-This is my idea: ![alt text](image.png)
+This is my idea: ![alt text](images/image.png)
 You can see a video in french with presentation of VersaTube (https://www.youtube.com/watch?v=FrGhFqn37Wc)
 
 First challenge for tomorrow:
@@ -35,33 +35,33 @@ After see all of this videos I start to design my circuit on KiCad scheme projec
 I remake lot of time circuit because I would like to be perfect circuit !
 
 24V IN / OUT:
-![alt text](image-1.png)
+![alt text](images/image-1.png)
 
 DMX IN / OUT:
-![alt text](image-2.png)
+![alt text](images/image-2.png)
 
 DMX Transeiver:
-![alt text](image-3.png)
+![alt text](images/image-3.png)
 
 24V > 5V:
-![alt text](image-4.png)
+![alt text](images/image-4.png)
 
 5V > 3V:
-![alt text](image-5.png)
+![alt text](images/image-5.png)
 
 USB:
-![alt text](image-6.png)
+![alt text](images/image-6.png)
 
 ESP with button for RESET:
-![alt text](image-7.png)
+![alt text](images/image-7.png)
 
 This is scheme completly finished:
-![alt text](image-8.png)
+![alt text](images/image-8.png)
 
 Next part: Design PCB and routing it
-![alt text](image-9.png)
-![alt text](image-10.png)
-![alt text](image-11.png)
+![alt text](images/image-9.png)
+![alt text](images/image-10.png)
+![alt text](images/image-11.png)
 
 I remake it totaly 3 times:
 - because my scheme was not good at start and I change lot of thing so I have prefered to restart
@@ -109,7 +109,7 @@ U4,SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BL,1,AP2112K-3.3,C51118
 I search all reference at hand (LSCS References, it's horrible to find exact print on PCB and LSCS), after make this I push it to JLCPCB and make simulations with all parameters for see (at this moment I think 1 PCB = around 5$ max (Me, you future idiot, thinking that))
 
 And ...
-![alt text](image-12.png)
+![alt text](images/image-12.png)
 
 Whatttttttt ????? 120$ WITHOUT fees for assembling this (for 5 !)
 At that point, I questioned the entire project because it didn't fit the budget at all.
@@ -160,7 +160,7 @@ So for partial BOM:
 ==> 182.8€ arround $199,55 😱
 
 I search during 2 hours to find best price for each part
-![alt text](image-13.png)
+![alt text](images/image-13.png)
 
 **Total time spent: 3 hours**
 
@@ -189,7 +189,7 @@ so WLED or (FastLed) or ESPIxelStick
 I search youtube video for see differences in video and make decision 
 https://youtu.be/Z2sAVM3pwFM?si=V13lelKXFeBYc6Ve
 https://youtu.be/exAWzMfmwQ8?si=ewpfCq32tW1L6fjD
-![alt text](image-14.png)
+![alt text](images/image-14.png)
 
 
 https://youtu.be/Da7x91w44T0?si=RJCx_LoPbBkOXw7Q
@@ -201,13 +201,13 @@ Just follow guide:
 https://install.wled.me/
 
 I try with on of my card ESP-WROOM-32
-![alt text](image-15.png)
+![alt text](images/image-15.png)
 I have problem with my driver on Windows I need to uninstall Arduino IDE / reinstall Arduino IDE because driver does not detect my cart on COM port so I cannot flash it from chrome
 
 Now how to connect it with QLW with DMX
-![alt text](image-16.png)
+![alt text](images/image-16.png)
 
-![alt text](image-17.png)
+![alt text](images/image-17.png)
 this is DMX parameters to initialize
 
 ESP was HOT while running WLED !!! PAY ATTENTION FOR FUTURE CONCEPTION
@@ -216,23 +216,23 @@ ESP was HOT while running WLED !!! PAY ATTENTION FOR FUTURE CONCEPTION
 
 ## Day 7: Scheme day
 I made little electrical scheme:
-![alt text](image-18.png)
+![alt text](images/image-18.png)
 this represent cablage of tube bettween us and data system
 
 This is sorted data from technical doc:
-![alt text](image-19.png)
+![alt text](images/image-19.png)
 
 For connfirm choice of my aluminum profile is 7mm of light space (also difference between light on strip so normally no pixel effect visible)
 
 **Total time spent: 1 hours**
 
 ## Day 8: Fusion 360 !!!
-![alt text](image-20.png)
+![alt text](images/image-20.png)
 I made only this because I want to have this value I havent:
-![alt text](image-21.png)
+![alt text](images/image-21.png)
 
 Just when I got this I measure this and add 2 cube for each sides to make feet on my tubes
-![alt text](image-22.png)
+![alt text](images/image-22.png)
 
 I also remake test in Wled with DMX and a little band of led I have at home (I forgot to take a picture; I think I was too focused 😅)
 So for recap this test: It's work but I have big latency between QLC+ and my WLED reaction
@@ -260,8 +260,8 @@ Well, sometimes it's best not to overthink it; I'll just grab the second ESP and
 
 Let's go!
 I figured it out: when I moved closer to my router, I noticed the latency disappeared. I tried again with the other ESP, but the 2-second latency came back, so I think there must be a defect or something with that one!
-Une image de la config qlc: 
-![alt text](image-23.png)
+Une images/image de la config qlc: 
+![alt text](images/image-23.png)
 
 I think I went through every single menu in QLC+ and WLED to see where it was coming from, lol.
 
@@ -276,17 +276,17 @@ Noooooo....
 I'm such an idiot.
 Lets go find LED strip to 12.69E/2m :( 2815 not 2812 !
 I found this:
-![alt text](image-24.png)
+![alt text](images/image-24.png)
 but ... 
-![alt text](image-25.png)
+![alt text](images/image-25.png)
 what ?
-![alt text](image-26.png)
+![alt text](images/image-26.png)
 I pass it in dollars and it's good lol
 
 I change BOM and lets go, It's very difficult to find cheap strip in WS2815
 
 On the doc I found this:
-![alt text](image-27.png)
+![alt text](images/image-27.png)
 Considerating 34W / m so for total of
 34*10 = 340W
 I = P / U => 340 / 12 = 30 A
@@ -327,13 +327,13 @@ I should just point out that I won't be using a PCB, as they are too expensive f
 
 So multiple pb on my project:
 - USB-C receptacle is wired incorrectly: connect D+ to D+ and D− to D− so USB data works in both cable orientations.
--> ![alt text](image-28.png) --> corrected
+-> ![alt text](images/image-28.png) --> corrected
 - Replace the current GND symbol with the standard KiCad GND symbol.
--> ![alt text](image-29.png) --> corrected
+-> ![alt text](images/image-29.png) --> corrected
 - Orient the GND symbol downward, following standard schematic conventions.
--> ![alt text](image-30.png) --> corrected
+-> ![alt text](images/image-30.png) --> corrected
 - Replace power global labels with proper KiCad power symbols (use P to place them).
--> ![alt text](image-31.png) --> corrected
+-> ![alt text](images/image-31.png) --> corrected
 - Missing KiCad project files (.kicad_pro, .kicad_sch, .kicad_pcb).
 [kicad_pcb](assets/tube.kicad_pcb)
 [kicad_pro](assets/tube.kicad_pro)
@@ -342,12 +342,34 @@ So multiple pb on my project:
 **Total time spent: 1 hours**
 
 ## New response after accepted project
-"Your first entire spending 3 hours on research will have to be full deflated that is an excessive amount of time. You need to link the firmware, and you need to include the 3d Model you created. You need to add more pictures, and cannot have the inspiration as your cover images. I am also moving this down to Tier 3 as it does not fit T2 guidelines."
+"Your first entire spending 3 hours on research will have to be full deflated that is an excessive amount of time. You need to link the firmware, and you need to include the 3d Model you created. You need to add more pictures, and cannot have the inspiration as your cover images/images. I am also moving this down to Tier 3 as it does not fit T2 guidelines."
 
 Okay for research, the link to firmware: https://kno.wled.ge/ (added to README)
 
-I replace cover image
+I replace cover images/image
 I place CAD file: [step file](cad/LeTube.step)
-![alt text](image-32.png)
+![alt text](images/image-32.png)
 
 **Total time spent: 10 minutes**
+
+## New response for my project
+"Hii nice idea, but sadly ill have to return for now -- as you're missing on some things such as:
+
+    i cant see the source file of ur CAD
+    i cant see any wiring diagram or anything like that in ur repo
+    i believe ur README could be a lot better, try formatting & rewriting it (refer to https://forge.hackclub.com/docs/design/readme)
+
+[note- i also see your all images are in root of ur repo rn, it'd be better if you would move them to assets/ or images/]
+
+Thanks!"
+
+So 4 problems:
+Source CAD file => [CAD FILE](cad/LeTube.step)
+
+Wiring diagrams => ![alt text](assets/scheme.png)
+
+Update README => Updated !
+
+Images are now in images folder
+
+**Total time spent: 30 minutes**

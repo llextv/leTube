@@ -11066,7 +11066,7 @@
 		(layer "Edge.Cuts")
 		(uuid "fdab4975-e50f-46fe-bd55-eb82275d21bb")
 	)
-	(image
+	(images/image
 		(at 239.55 54.1)
 		(layer "F.SilkS")
 		(scale 0.027047)
