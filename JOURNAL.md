@@ -383,6 +383,7 @@ Heyo, cool project!! I think it's really creative, and the PCB is well-done. But
     Finally, you should explain the usage of LeTube.step in the building instructions, since right now there doesn't seem to be anything about it.
 
 Sorry about all the returns; I know it's frustrating :(
+![alt text](images/READMEm.png)
 
 So first pb: I remake README.md
 Second pb: PCB --> I'm not using PCB in final project so ...
