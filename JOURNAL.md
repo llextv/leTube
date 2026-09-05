@@ -388,3 +388,5 @@ Sorry about all the returns; I know it's frustrating :(
 So first pb: I remake README.md
 Second pb: PCB --> I'm not using PCB in final project so ...
 Usage of LeTube.step: this component is used for maintain the tube in horizontal position
+
+**Total time spent: 30 minutes**
