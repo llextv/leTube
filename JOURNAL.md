@@ -373,3 +373,17 @@ Update README => Updated !
 Images are now in images folder
 
 **Total time spent: 30 minutes**
+
+## New response for changes
+I received:
+Heyo, cool project!! I think it's really creative, and the PCB is well-done. But some stuff must be fixed:
+
+    Your readme is AI generated, which is not allowed. It must be written by hand, but it's alright to take inspiration from what you have now, in terms of layout and organization.
+    You should thicken your 5v and 24v PCB traces a bunch. Find the power draw of your LEDs, and look up how wide the 5v traces should be at the total amperage draw. Net-(D2-A2) on your 24v should be the same width as the 24v net traces, and ideally close to if not over a millimeter wide, again depending on the total power draw.
+    Finally, you should explain the usage of LeTube.step in the building instructions, since right now there doesn't seem to be anything about it.
+
+Sorry about all the returns; I know it's frustrating :(
+
+So first pb: I remake README.md
+Second pb: PCB --> I'm not using PCB in final project so ...
+Usage of LeTube.step: this component is used for maintain the tube in horizontal position
