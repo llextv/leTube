@@ -5,4 +5,5 @@ Lighting;Profilé aluminium LED 0.5 m;20;2.55;51.00;20 × 0.5 m (10 m total);htt
 Lighting;WS2812B Addressable RGB LED Strip 2 m;5;16.56;82.81;5 × 2 m (10 m total);https://fr.aliexpress.com/item/1005007989431712.html
 Prototype;Fil électrique;1;0.00;0.00;At home;
 Controls;ESP-WROOM-32;1;0.00;0.00;At home;
+Changing(error); 5V alim;1;9;9;Alim de remplacement; https://www.alibaba.com/product-detail/110v-220v-ac-dc-5v-5v_62117105108.html
 TOTAL;;;;182.80;;
